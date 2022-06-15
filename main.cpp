@@ -25,8 +25,8 @@ int main(int argc, char** argv ){
                                                   { 1, 1, 1},
                                                   { 0, 1, 0}};;
 
-
     data = erosion(data, elementoEstructurante);
+    //data = dilatacion(data, elementoEstructurante);
     cout << "Filas:"<<data.size()<<"; Columnas:"<<data[0].size() << endl;
     return 0;
 }
